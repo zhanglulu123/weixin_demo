@@ -1,0 +1,53 @@
+/* pages/center/index.wxss */
+page {
+    background: #F0F0F0;
+}
+form{
+  /* 需要把form把给块级元素 */
+  display: block;
+  padding: 15px;
+  background: #fff;
+}
+.item{
+  display: flex;
+  margin: 6px;
+  height:30px;
+  line-height: 30px;
+  border-bottom: 1px solid #F0F0F0;
+}
+.item label{
+  width: 60px;
+}
+.item input{
+  flex: 1;
+  height:30px;
+  line-height: 30px;
+  text-align: right;
+  font-size: 15px;
+}
+.item .verify{
+  background-color:#45B8FF;
+  border-radius: 20px;
+  color: #fff;
+  margin-left: 10px;
+  font-size: 14px;
+  width: 100px;
+  height: 30px;
+  line-height: 30px;
+}
+.items view:last-child {
+ border-bottom: 0 none;
+}
+.button{
+  width: 100%;
+  height: 50px;
+  margin-top: 20px;
+}
+.button .submit{
+  width: 90%;
+  border-radius: 10px;
+  font-size:15px;
+  color: #fff;
+  background-color: #feca49;
+
+}

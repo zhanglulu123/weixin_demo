@@ -1,0 +1,31 @@
+/**index.wxss**/
+page {
+    background: #F0F0F0;
+}
+swiper{
+  height: 320rpx;
+}
+image{
+  width: 750rpx;
+  height: 320rpx;
+}
+.title{
+  padding: 15px 20px;
+  box-sizing: border-box;
+}
+.info{
+  width: 85%;
+  position: relative;
+  margin-left: 20px;
+}
+.info .status{
+  position: absolute;
+  top: 0;
+  right: -30px;
+  color: red;
+}
+.info .extra{
+  font-size: 13px;
+  color: #B4B4B4;
+  margin-top: 6px;
+}

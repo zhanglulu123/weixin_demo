@@ -1,0 +1,86 @@
+<!-- 首页布局   组件就是标签  indicator-dots：显示面板指示点-->
+<!-- indicator-color：指示点颜色  indicator-active-color：选中的指示点颜色  autoplay：是否自动切换    circular:是否采用衔接滑动-->
+<swiper indicator-dots indicator-color="rgba(255, 255, 255, .6)" indicator-active-color="#fff" autoplay circular>
+<!-- 轮播图 -->
+  <swiper-item>
+    <image src="../../static/uploads/slide_1.jpg"></image>
+  </swiper-item>
+  <swiper-item>
+    <image src="../../static/uploads/slide_2.jpg"></image>
+  </swiper-item>
+  <swiper-item>
+    <image src="../../static/uploads/slide_3.jpg"></image>
+  </swiper-item>
+  <swiper-item>
+    <image src="../../static/uploads/slide_4.jpg"></image>
+  </swiper-item>
+  <swiper-item>
+    <image src="../../static/uploads/slide_5.jpg"></image>
+  </swiper-item>
+</swiper>
+<!-- 活动标题 -->
+<view class="title">乐园活动</view>
+<!-- 活动列表 -->
+<view class="item">
+<!-- navigator相当于网页中的a标签,用来实现页面跳转 -->
+<!-- 封面图 -->
+<navigator url="">
+  <image src="/static/uploads/item_1.png"></image>
+</navigator>
+<!-- 活动信息 -->
+<view class="info">
+ <view class="name">
+ 疯狂的红包 不一样的撕名牌 大型家庭亲子户外活动
+ </view>
+ <!-- 相关信息 -->
+ <view class="extra">
+ <!-- 相当于网页中的span属于行内元素 -->
+  <text>200人报名</text>
+  <text>本周六开始</text>
+ </view>
+ <!-- 活动状态 -->
+ <view class="status">免费</view>
+</view>
+</view>
+<view class="item">
+<!-- navigator相当于网页中的a标签,用来实现页面跳转 -->
+<!-- 封面图 -->
+<navigator url="">
+  <image src="/static/uploads/item_1.png"></image>
+</navigator>
+<!-- 活动信息 -->
+<view class="info">
+ <view class="name">
+ 疯狂的红包 不一样的撕名牌 大型家庭亲子户外活动
+ </view>
+ <!-- 相关信息 -->
+ <view class="extra">
+ <!-- 相当于网页中的span属于行内元素 -->
+  <text>200人报名</text>
+  <text>本周六开始</text>
+ </view>
+ <!-- 活动状态 -->
+ <view class="status">免费</view>
+</view>
+</view>
+<view class="item">
+<!-- navigator相当于网页中的a标签,用来实现页面跳转 -->
+<!-- 封面图 -->
+<navigator url="">
+  <image src="/static/uploads/item_1.png"></image>
+</navigator>
+<!-- 活动信息 -->
+<view class="info">
+ <view class="name">
+ 疯狂的红包 不一样的撕名牌 大型家庭亲子户外活动
+ </view>
+ <!-- 相关信息 -->
+ <view class="extra">
+ <!-- 相当于网页中的span属于行内元素 -->
+  <text>200人报名</text>
+  <text>本周六开始</text>
+ </view>
+ <!-- 活动状态 -->
+ <view class="status">免费</view>
+</view>
+</view>
